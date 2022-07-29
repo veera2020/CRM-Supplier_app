@@ -1,0 +1,30 @@
+@import "~antd/dist/antd.css";
+
+hr {
+  border-top-width: 1px;
+}
+@media (min-width: 992px) {
+  .side-left {
+    min-width: 100%;
+    background: url(../Images/emp.jpg) top center no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+}
+.side-left {
+  width: 100%;
+  max-width: calc(100% - 710px);
+  padding: 20px 20px 20px;
+  min-height: 100vh;
+}
+
+.experience {
+  color: gray;
+}
+.experience option {
+  color: black !important;
+}
+
+.change_color {
+  color: black;
+}
