@@ -47,7 +47,7 @@ const Takelive = () => {
           data.map((item, index) => (
             <div
               key={index}
-              className="col-span-1 h-24 bg-gray-500 rounded-lg flex flex-col justify-center items-center"
+              className="col-span-1 w-auto h-24 bg-gray-500 rounded-lg flex flex-col justify-center items-center"
               onClick={() => {
                 golive(item._id);
               }}

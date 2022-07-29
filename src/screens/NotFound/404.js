@@ -17,8 +17,8 @@ const NotFound = () => {
       <div className="flex p-5">
         <img src={logo} alt="logo" width={45} height={45} />
         <div className="flex flex-col">
-          <div className="text-sm font-semibold">Ticvic</div>
-          <div className="text-xs">Employee Management</div>
+          <div className="text-sm font-semibold">Uyarchi</div>
+          <div className="text-xs">Supplier App</div>
         </div>
       </div>
       <Image src={Not} alt="logo" width={400} height={400} />
